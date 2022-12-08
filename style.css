@@ -1,17 +1,16 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap');
 
-
 body{
     background: linear-gradient(45deg,pink,violet);
     width: 100vw;
     height: 100vh;
     margin: 0px;
-    overflow: scroll;
     display: flex;
     justify-content: center;
+    align-items: center;
 }
 
-#container .btn {
+#container .btn{
     min-width: 30%;
     min-height: 30%;
     backdrop-filter: blur(5px);
@@ -27,6 +26,7 @@ body{
     padding: 5px 10px;
     font-family: "Poppins",sans-serif;
 }
+
 .fa-heart {
     color: rgb(60, 0, 60);
     font-size: 25px;
@@ -44,4 +44,3 @@ body{
         transform: translateY(110vh) ;
     }
 }
-

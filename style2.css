@@ -8,6 +8,32 @@
     --font: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
 }
 
+body{
+    background: linear-gradient(45deg,pink,violet);
+    width: 100vw;
+    height: 100vh;
+    margin: 0px;
+    display: flex;
+    justify-content: center;
+}
+
+.fa-heart {
+    color: rgb(60, 0, 60);
+    font-size: 25px;
+    position: absolute;
+    animation:  heartMove linear 1;
+    top: -10vh;
+    z-index: 0;
+}
+
+@keyframes heartMove {
+    0%{
+        transform: translateY(-10vh) ;
+    }
+    100%{
+        transform: translateY(110vh) ;
+    }
+}
 .list {
     list-style: none;
     width: 600px;
